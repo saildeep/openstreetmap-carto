@@ -12,16 +12,16 @@
 
 #addresses {
   [zoom >= 17] {
-    text-name: "[addr_housename]";
+    
     ["addr_housenumber" != null] {
-      text-name: [addr_housenumber];
+      
       ["addr_housename" != null] {
-        text-name: [addr_housenumber] + "\n" + [addr_housename];
+        
       }
       ["addr_unit" != null] {
-        text-name: [addr_housenumber] + " " + [addr_unit];
+        
         ["addr_housename" != null] {
-          text-name: [addr_housenumber] + " " + [addr_unit] + "\n" + [addr_housename];
+          
         }
       }
     }
@@ -37,7 +37,7 @@
     [zoom >= 18] {
       text-halo-radius: @standard-halo-radius * 1.25;
       ["addr_unit" != null]["addr_housenumber" = null] {
-        text-name: [addr_unit];
+        
       }
     }
     [zoom >= 20] {
@@ -55,7 +55,7 @@ no official postal addresses) */
 #building-text {
   [zoom >= 14][way_pixels > 3000],
   [zoom >= 17] {
-    text-name: "[name]";
+    
     text-placement: interior;
     text-face-name: @book-fonts;
     text-fill: #444;

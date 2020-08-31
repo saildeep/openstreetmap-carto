@@ -214,7 +214,7 @@ overlapping borders correctly.
   [zoom >= 14][admin_level = '7'],
   [zoom >= 15][admin_level = '8'],
   [zoom >= 16] {
-    text-name: "[name]";
+    
     text-face-name: @book-fonts;
     text-fill: @admin-boundaries;
     text-halo-radius: @standard-halo-radius;
@@ -231,7 +231,7 @@ overlapping borders correctly.
 }
 
 #protected-areas-text[zoom >= 13][way_pixels > 192000] {
-  text-name: "[name]";
+  
   text-face-name: @book-fonts;
   text-fill: green;
   [boundary='aboriginal_lands'],
