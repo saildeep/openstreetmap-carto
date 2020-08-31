@@ -27,7 +27,7 @@
     }
     text-placement: interior;
     text-face-name: @book-fonts;
-    text-fill: @address-color;
+    text-fill: transparent;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-size: 10;
@@ -58,7 +58,7 @@ no official postal addresses) */
     text-name: "";
     text-placement: interior;
     text-face-name: @book-fonts;
-    text-fill: #444;
+    text-fill: transparent;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-size: 11;

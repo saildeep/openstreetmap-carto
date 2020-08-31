@@ -22,7 +22,7 @@
     text-name: "";
     text-face-name: @book-fonts;
     text-placement: line;
-    text-fill: @ferry-route-text;
+    text-fill: transparent;
     text-spacing: 1000;
     text-size: 10;
     text-dy: -8;

@@ -11,7 +11,7 @@
       text-name: "";
       text-face-name: @book-fonts;
       text-size: 10;
-      text-fill: @transportation-icon;
+      text-fill: transparent;
       text-dy: 10;
       text-halo-radius: @standard-halo-radius * 1.5;
       text-halo-fill: @standard-halo-fill;
@@ -36,7 +36,7 @@
       text-name: "";
       text-face-name: @bold-fonts;
       text-size: 10;
-      text-fill: @station-text;
+      text-fill: transparent;
       text-dy: 9;
       text-halo-radius: @standard-halo-radius * 1.5;
       text-halo-fill: @standard-halo-fill;
@@ -68,7 +68,7 @@
       text-name: "";
       text-face-name: @bold-fonts;
       text-size: @standard-font-size;
-      text-fill: @station-text;
+      text-fill: transparent;
       text-dy: 10;
       text-halo-radius: @standard-halo-radius * 1.5;
       text-halo-fill: @standard-halo-fill;
@@ -93,7 +93,7 @@
       text-name: "";
       text-face-name: @book-fonts;
       text-size: @standard-font-size;
-      text-fill: @station-text;
+      text-fill: transparent;
       text-dy: 10;
       text-halo-radius: @standard-halo-radius * 1.5;
       text-halo-fill: @standard-halo-fill;
@@ -118,7 +118,7 @@
       text-name: "";
       text-face-name: @book-fonts;
       text-size: @standard-font-size;
-      text-fill: @station-text;
+      text-fill: transparent;
       text-dy: 10;
       text-halo-radius: @standard-halo-radius * 1.5;
       text-halo-fill: @standard-halo-fill;

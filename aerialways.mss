@@ -16,7 +16,7 @@
       dash/line-clip: false;
       [zoom >= 17] {
         text-name: "";
-        text-fill: #666666;
+        text-fill: transparent;
         text-size: 10;
         text-dy: 4;
         text-spacing: 900;
@@ -48,7 +48,7 @@
       dash/line-clip: false;
       [zoom >= 17] {
         text-name: "";
-        text-fill: #666666;
+        text-fill: transparent;
         text-size: 10;
         text-dy: 4;
         text-spacing: 900;
@@ -86,7 +86,7 @@
       dash/line-clip: false;
       [zoom >= 17] {
         text-name: "";
-        text-fill: #666666;
+        text-fill: transparent;
         text-size: 10;
         text-dy: 4;
         text-spacing: 900;

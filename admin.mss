@@ -216,7 +216,7 @@ overlapping borders correctly.
   [zoom >= 16] {
     text-name: "";
     text-face-name: @book-fonts;
-    text-fill: @admin-boundaries;
+    text-fill: transparent;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-largest-bbox-only: false;
@@ -233,10 +233,10 @@ overlapping borders correctly.
 #protected-areas-text[zoom >= 13][way_pixels > 192000] {
   text-name: "";
   text-face-name: @book-fonts;
-  text-fill: green;
+  text-fill: transparent;
   [boundary='aboriginal_lands'],
   [boundary='protected_area'][protect_class='24'] {
-    text-fill: @aboriginal;
+    text-fill: transparent;
   }
   text-halo-radius: @standard-halo-radius;
   text-halo-fill: @standard-halo-fill;

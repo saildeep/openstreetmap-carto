@@ -251,7 +251,7 @@
       text-name: "";
       text-face-name: @oblique-fonts;
       text-placement: line;
-      text-fill: @water-text;
+      text-fill: transparent;
       text-spacing: 400;
       text-size: 10;
       text-halo-radius: @standard-halo-radius;
@@ -263,7 +263,7 @@
       text-name: "";
       text-size: 10;
       text-face-name: @oblique-fonts;
-      text-fill: @water-text;
+      text-fill: transparent;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
       text-spacing: 400;
@@ -276,7 +276,7 @@
       text-name: "";
       text-size: 10;
       text-face-name: @oblique-fonts;
-      text-fill: @water-text;
+      text-fill: transparent;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
       text-placement: line;
@@ -287,7 +287,7 @@
       text-name: "";
       text-size: 10;
       text-face-name: @oblique-fonts;
-      text-fill: @water-text;
+      text-fill: transparent;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
       text-spacing: 600;
@@ -303,7 +303,7 @@
         text-name: "";
         text-size: 10;
         text-face-name: @oblique-fonts;
-        text-fill: @water-text;
+        text-fill: transparent;
         text-halo-radius: @standard-halo-radius;
         text-halo-fill: @standard-halo-fill;
         text-spacing: 600;
@@ -319,7 +319,7 @@
     text-name: "";
     text-size: 10;
     text-face-name: @oblique-fonts;
-    text-fill: @water-text;
+    text-fill: transparent;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
     text-max-char-angle-delta: 15;
@@ -361,7 +361,7 @@
         text-wrap-width: 95; // 5.0 em
         text-line-spacing: -0.95; // -0.05 em
       }
-      text-fill: @water-text;
+      text-fill: transparent;
       text-face-name: @oblique-fonts;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
@@ -376,7 +376,7 @@
     text-size: 10;
     text-wrap-width: 25; // 2.5 em
     text-line-spacing: -1.5; // -0.15 em
-    text-fill: @water-text;
+    text-fill: transparent;
     text-face-name: @oblique-fonts;
     text-halo-radius: @standard-halo-radius;
     text-halo-fill: @standard-halo-fill;
