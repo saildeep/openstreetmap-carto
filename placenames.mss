@@ -73,7 +73,7 @@
     shield-text-dy: 6;
     shield-name: "";
     shield-face-name: @book-fonts;
-    shield-fill: @placenames;
+    shield-fill: transparent;
     shield-size:0;
     shield-wrap-width: 30; // 2.7 em
     shield-line-spacing: -1.6; // -0.15 em
@@ -138,7 +138,7 @@
       shield-text-dy: 4;
       shield-name: "";
       shield-face-name: @book-fonts;
-      shield-fill: @placenames;
+      shield-fill: transparent;
       shield-size:0;
       shield-wrap-width: 30; // 2.7 em
       shield-line-spacing: -1.65; // -0.15 em
@@ -206,7 +206,7 @@
       shield-text-dy: 4;
       shield-name: "";
       shield-size:0;
-      shield-fill: @placenames;
+      shield-fill: transparent;
       shield-face-name: @book-fonts;
       shield-halo-fill: @standard-halo-fill;
       shield-halo-radius: @standard-halo-radius * 1.5;

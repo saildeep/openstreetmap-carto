@@ -2935,22 +2935,22 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     shield-clip: @shield-clip;
 
     [highway = 'motorway'] {
-      shield-fill: @motorway-shield;
+      shield-fill: transparent;
       shield-file: url("symbols/shields/motorway_[width]x[height].svg");
     }
 
     [highway = 'trunk'] {
-      shield-fill: @trunk-shield;
+      shield-fill: transparent;
       shield-file: url("symbols/shields/trunk_[width]x[height].svg");
     }
 
     [highway = 'primary'] {
-      shield-fill: @primary-shield;
+      shield-fill: transparent;
       shield-file: url("symbols/shields/primary_[width]x[height].svg");
     }
 
     [highway = 'secondary'] {
-      shield-fill: @secondary-shield;
+      shield-fill: transparent;
       shield-file: url("symbols/shields/secondary_[width]x[height].svg");
     }
   }
@@ -2984,7 +2984,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       shield-clip: @shield-clip;
 
       [highway = 'motorway'] {
-        shield-fill: @motorway-shield;
+        shield-fill: transparent;
         shield-file: url("symbols/shields/motorway_[width]x[height].svg");
 
         [zoom >= 16] {
@@ -2995,7 +2995,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         }
       }
       [highway = 'trunk'] {
-        shield-fill: @trunk-shield;
+        shield-fill: transparent;
         shield-file: url("symbols/shields/trunk_[width]x[height].svg");
 
         [zoom >= 16] {
@@ -3006,7 +3006,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         }
       }
       [highway = 'primary'] {
-        shield-fill: @primary-shield;
+        shield-fill: transparent;
         shield-file: url("symbols/shields/primary_[width]x[height].svg");
 
         [zoom >= 16] {
@@ -3017,7 +3017,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         }
       }
       [highway = 'secondary'] {
-        shield-fill: @secondary-shield;
+        shield-fill: transparent;
         shield-file: url("symbols/shields/secondary_[width]x[height].svg");
 
         [zoom >= 16] {
@@ -3028,7 +3028,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         }
       }
       [highway = 'tertiary'] {
-        shield-fill: @tertiary-shield;
+        shield-fill: transparent;
         shield-file: url("symbols/shields/tertiary_[width]x[height].svg");
 
         [zoom >= 16] {
