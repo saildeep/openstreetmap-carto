@@ -122,7 +122,7 @@
   [feature = 'waterway_weir'] {
     #text-point[zoom >= 15],
     #text-line[zoom >= 15] {
-      
+      text-name: "";
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
       text-fill: #222;
@@ -148,7 +148,7 @@
   [feature = 'man_made_pier'][zoom >= 15] {
     #text-point,
     #text-line {
-      
+      text-name: "";
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
       text-fill: #222;

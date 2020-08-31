@@ -12,16 +12,16 @@
 
 #addresses {
   [zoom >= 17] {
-    
+    text-name: "";
     ["addr_housenumber" != null] {
-      
+      text-name: "";
       ["addr_housename" != null] {
-        
+        text-name: "";
       }
       ["addr_unit" != null] {
-        
+        text-name: "";
         ["addr_housename" != null] {
-          
+          text-name: "";
         }
       }
     }
@@ -37,7 +37,7 @@
     [zoom >= 18] {
       text-halo-radius: @standard-halo-radius * 1.25;
       ["addr_unit" != null]["addr_housenumber" = null] {
-        
+        text-name: "";
       }
     }
     [zoom >= 20] {
@@ -55,7 +55,7 @@ no official postal addresses) */
 #building-text {
   [zoom >= 14][way_pixels > 3000],
   [zoom >= 17] {
-    
+    text-name: "";
     text-placement: interior;
     text-face-name: @book-fonts;
     text-fill: #444;

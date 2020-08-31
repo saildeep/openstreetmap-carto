@@ -15,7 +15,7 @@
       dash/line-dasharray: 0.4,13;
       dash/line-clip: false;
       [zoom >= 17] {
-        
+        text-name: "";
         text-fill: #666666;
         text-size: 10;
         text-dy: 4;
@@ -47,7 +47,7 @@
       dash/line-dasharray: 6,25;
       dash/line-clip: false;
       [zoom >= 17] {
-        
+        text-name: "";
         text-fill: #666666;
         text-size: 10;
         text-dy: 4;
@@ -85,7 +85,7 @@
       dash/line-dasharray: 1,30;
       dash/line-clip: false;
       [zoom >= 17] {
-        
+        text-name: "";
         text-fill: #666666;
         text-size: 10;
         text-dy: 4;

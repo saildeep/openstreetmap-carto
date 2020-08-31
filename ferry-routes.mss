@@ -19,7 +19,7 @@
 
 #ferry-routes-text {
   [zoom >= 13] {
-    
+    text-name: "";
     text-face-name: @book-fonts;
     text-placement: line;
     text-fill: @ferry-route-text;

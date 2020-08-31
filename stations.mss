@@ -8,7 +8,7 @@
     marker-fill: @transportation-icon;
     marker-clip: false;
     [zoom >= 19] {
-      
+      text-name: "";
       text-face-name: @book-fonts;
       text-size: 10;
       text-fill: @transportation-icon;
@@ -33,7 +33,7 @@
       marker-width: 6;
     }
     [zoom >= 14] {
-      
+      text-name: "";
       text-face-name: @bold-fonts;
       text-size: 10;
       text-fill: @station-text;
@@ -65,7 +65,7 @@
       }
     }
     [zoom >= 15] {
-      
+      text-name: "";
       text-face-name: @bold-fonts;
       text-size: @standard-font-size;
       text-fill: @station-text;
@@ -90,7 +90,7 @@
       marker-width: 6;
     }
     [zoom >= 14] {
-      
+      text-name: "";
       text-face-name: @book-fonts;
       text-size: @standard-font-size;
       text-fill: @station-text;
@@ -115,7 +115,7 @@
       }
     }
     [zoom >= 16] {
-      
+      text-name: "";
       text-face-name: @book-fonts;
       text-size: @standard-font-size;
       text-fill: @station-text;
