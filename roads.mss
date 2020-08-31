@@ -305,7 +305,7 @@
 
 // Shield’s line wrap is based on OpenStreetMap data and not on line-wrap-width,
 // but lines are typically rather short, so we use narrow line spacing.
-@shield-size: 10;
+@shield-size:0;
 @shield-line-spacing: -1.50; // -0.15 em
 @shield-size-z16: 11;
 @shield-line-spacing-z16: -1.65; // -0.15 em
@@ -2924,8 +2924,8 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [highway = 'trunk'][zoom >= 11],
   [highway = 'primary'][zoom >= 11],
   [highway = 'secondary'][zoom >= 12] {
-    shield-name: "[refs]";
-    shield-size: @shield-size;
+    shield-name: "";
+    shield-size:0;
     shield-line-spacing: @shield-line-spacing;
     shield-placement: line;
     shield-spacing: @shield-spacing;
@@ -2963,16 +2963,16 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [highway = 'secondary'],
   [highway = 'tertiary'] {
     [zoom >= 13] {
-      shield-name: "[refs]";
-      shield-size: @shield-size;
+      shield-name: "";
+      shield-size:0;
       shield-line-spacing: @shield-line-spacing;
 
       [zoom >= 16] {
-        shield-size: @shield-size-z16;
+        shield-size:0;
         shield-line-spacing: @shield-line-spacing-z16;
       }
       [zoom >= 18] {
-        shield-size: @shield-size-z18;
+        shield-size:0;
         shield-line-spacing: @shield-line-spacing-z18;
       }
 

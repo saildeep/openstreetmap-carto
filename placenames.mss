@@ -71,10 +71,10 @@
     shield-file: url('symbols/place/place-capital-6.svg');
     shield-text-dx: 6;
     shield-text-dy: 6;
-    shield-name: '[name]';
+    shield-name: "";
     shield-face-name: @book-fonts;
     shield-fill: @placenames;
-    shield-size: 11;
+    shield-size:0;
     shield-wrap-width: 30; // 2.7 em
     shield-line-spacing: -1.6; // -0.15 em
     shield-margin: 7.7; // 0.7 em
@@ -92,7 +92,7 @@
       shield-line-spacing: -1.1; // -0.10 em
     }
     [zoom >= 6] {
-      shield-size: 12;
+      shield-size:0;
       shield-wrap-width: 60; // 5.0 em
       shield-line-spacing: -0.6; // -0.05 em
       shield-margin: 8.4; // 0.7 em
@@ -136,10 +136,10 @@
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;
       shield-text-dy: 4;
-      shield-name: '[name]';
+      shield-name: "";
       shield-face-name: @book-fonts;
       shield-fill: @placenames;
-      shield-size: 11;
+      shield-size:0;
       shield-wrap-width: 30; // 2.7 em
       shield-line-spacing: -1.65; // -0.15 em
       shield-margin: 7.7; // 0.7 em
@@ -157,7 +157,7 @@
         shield-line-spacing: -1.1; // -0.10 em
       }
       [zoom >= 6] {
-        shield-size: 12;
+        shield-size:0;
         shield-wrap-width: 60; // 5.0 em
         shield-line-spacing: -0.6; // -0.05 em
         shield-margin: 8.4; // 0.7 em
@@ -204,8 +204,8 @@
       shield-file: url('symbols/place/place-4.svg');
       shield-text-dx: 4;
       shield-text-dy: 4;
-      shield-name: "[name]";
-      shield-size: 10;
+      shield-name: "";
+      shield-size:0;
       shield-fill: @placenames;
       shield-face-name: @book-fonts;
       shield-halo-fill: @standard-halo-fill;
